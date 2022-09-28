@@ -27,7 +27,7 @@ jobs:
 
       - name: assignment
         run: |
-          Repository_Name = $(tail -1 repos.txt)
+          Repository_Name=$(tail -1 repos.txt)
           sed -i '%s/default=$(Repository_Name)/default=""/g' variable.tf
 
       # Runs a set of commands using the runners shell
