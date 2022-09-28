@@ -28,7 +28,7 @@ jobs:
       - name: assignment
         run: |
           Repository_Name=$(tail -1 repos.txt)
-          sed -i "s/default = ''/default = $Repository_Name/" variables.tf
+          sed -i "s/default = ''/default = '"$Repository_Name/"'" variables.tf
 
       # Runs a set of commands using the runners shell
       - name: Setup Terraform
