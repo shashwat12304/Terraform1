@@ -1,4 +1,4 @@
 variable "token" {
   type    = string
-  default = "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"
+  default = "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"
 }
