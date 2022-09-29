@@ -8,3 +8,4 @@ test_3
 test_4
 avi_repo
 shash_repo
+new_repo
