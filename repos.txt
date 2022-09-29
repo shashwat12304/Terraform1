@@ -13,3 +13,4 @@ new_repo_2
 new_repo_3
 new_repo_4
 new_repo_5
+new_repo_6
