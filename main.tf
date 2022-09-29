@@ -3,8 +3,7 @@ variable "Repository_Name" {
   default = "testrepo"
 }
 resource github_repository github-repo-1 {
-  name        = "tf_repo"
+  name        = var.Repository_Name
   description = "My awesome codebase"
-
   visibility = "public"
 }
