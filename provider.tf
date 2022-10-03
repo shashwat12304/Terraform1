@@ -7,6 +7,6 @@ terraform {
   }
 }
 provider "github" {
-  token = var.token
-  owner = var.owner
+    token = var.Token
+    owner = var.Owner
 }
