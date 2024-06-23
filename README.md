@@ -1,1 +1,2 @@
-# project_1 for testing
+# My first Terraform project
+
